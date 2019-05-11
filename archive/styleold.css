@@ -1,0 +1,156 @@
+body{
+    font-family: Verdana, sans-serif;
+    color: white;
+    margin: auto;
+/*  margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px; */
+}
+h1{
+    font-family: Courier New, sans-serif;
+    font-size: 45px;
+}
+h2{
+    font-family: Courier New, sans-serif;
+    font-size: 24px;
+}
+header{
+  background-color: #222222;  
+}
+.header{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 17px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 3px;
+    padding-top: 33px;
+}
+a{
+   text-decoration: none; 
+}
+.header a{
+    color:white;
+}
+
+/*.logo{
+    margin-left: -30px;
+    margin-right: 50px
+}*/
+nav li{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+/*.icons_list{
+    margin-left: 55%; 
+    margin-right: -30px;
+}
+.icons img{
+    margin-left: 30px;
+}*/
+
+.first_screen{ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 110px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 2px;
+}
+
+.blocks_first_screen{
+    width:  440px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.first_screen section p{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+button{
+    background: #ffcb06;
+    font-weight: bold;
+
+    color: black;
+    border-radius: 25px;
+    height: 50px;
+    width: 240px;
+    font-size: 14px; 
+    border-color: #ffcb06;
+    border-style: hidden;
+}
+button:hover{
+    background: #c19800;
+    border-color: #ffcb06;
+    cursor: pointer;
+}
+button span{
+    float: left;
+    margin-left: 20px;
+}
+
+button img{
+    float: right;
+}
+
+/* ///////////////////////////////////////////// ///////////////////////////////////////////// */
+
+.advantages{
+  background-color: #131313;     
+}
+.features{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 3px;
+    display: flex;
+}
+.advantage_blocks{
+    width: 180px;
+    height: 250px;
+    flex-direction: row;
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.advantage_blocks img{
+    margin-top: 25%
+}
+
+/* ///////////////////////////////////////////// ///////////////////////////////////////////// */
+.content{
+    background-color: white;
+    color: black;
+}
+.description{
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.content_blocks{
+    width: 440px;
+    height: 368px;
+}
+
+/* ///////////////////////////////////////////// //////////////////////////////////////*/
+footer{
+    background-color: #131313;
+}
+.footer{
+    height: 350px;
+    display: inline-flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.footer_blocks{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}

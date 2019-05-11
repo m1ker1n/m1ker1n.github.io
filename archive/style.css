@@ -1,0 +1,265 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: white;
+    margin: auto;
+    /*  margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px; */
+}
+
+h1 {
+    font-family: Courier New, sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: Courier New, sans-serif;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #222222;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header a {
+    color: white;
+}
+
+/*.header {
+    display: flex;
+    width: 100%;
+    flex-grow: 3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 3px;
+    padding-top: 33px;
+}
+*/
+
+
+/*.logo{
+    margin-left: -30px;
+    margin-right: 50px
+}*//*
+nav ul {
+
+    padding-left: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 75px;
+    width: auto;
+}
+
+nav li {
+    padding-left: 30px;
+    margin: auto;
+    width: auto;
+    list-style: none;
+}
+
+nav li:last-child {}
+
+/*.icons_list{
+    margin-left: 55%; 
+    margin-right: -30px;
+}
+.icons img{
+    margin-left: 30px;
+}*/ 
+nav{
+    display: flex;
+}
+.nav-bar{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    padding-bottom: 3px;
+    padding-top: 33px;
+}
+.nav-bar a{
+    color: white;
+    
+}
+.nav-bar ul{
+    list-style: none;
+    padding:0px;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+}
+.nav-bar li{
+    margin-top:auto;
+    margin-bottom: auto;
+    display: inline;
+    margin-right: 30px;
+}
+.nav-bar li:last-child{
+    margin-right: 0px;
+}
+
+.first_screen {
+    display: flex;
+}
+
+.first_screen_section {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 110px;
+    padding-top: 2px;
+}
+
+.blocks_first_screen {
+    width: 440px;
+    height: 450px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.first_screen section p {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+button {
+    background: #ffcb06;
+    font-weight: bold;
+    color: black;
+    border-radius: 25px;
+    height: 50px;
+    width: 240px;
+    font-size: 14px;
+    border-color: #ffcb06;
+    border-style: hidden;
+}
+
+button:hover {
+    background: #c19800;
+    border-color: #ffcb06;
+    cursor: pointer;
+}
+
+button span {
+    float: left;
+    margin-left: 20px;
+}
+
+button img {
+    float: right;
+}
+
+/* ///////////////////////////////////////////// ///////////////////////////////////////////// */
+
+.advantages {
+    background-color: #131313;
+    display: flex;
+}
+
+.features {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+.advantage_blocks {
+    width: 180px;
+    height: 250px;
+    flex-direction: row;
+    padding: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.advantage_blocks img {
+    margin-top: 25%
+}
+
+/* ///////////////////////////////////////////// ///////////////////////////////////////////// */
+.content {
+    background-color: white;
+    color: black;
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.content_blocks {
+    width: 440px;
+    height: 368px;
+}
+
+/* ///////////////////////////////////////////// //////////////////////////////////////*/
+footer {
+    background-color: #131313;
+    display: flex;
+}
+
+.footer {
+    height: 350px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin -bottom: 40px;
+    margin-top: 4px;
+}
+
+.footer_blocks {
+    border: 5px solid white;
+    height: 253px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 17px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_blocks_top {
+    display: flex;
+    height: 25%;
+}
+
+.footer_blocks_bottom {
+    display: flex;
+
+}
+
+.footer_blocks ul {
+    padding-left: 0px;
+}
+
+.footer_blocks hr {}
+
+.footer_blocks li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.push {
+    margin: auto;
+}
